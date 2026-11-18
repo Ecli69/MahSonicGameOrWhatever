@@ -15,6 +15,7 @@ class User extends Authenticatable
         'total_rings',
         'avatar', 
         'color',
+        'attempts',
     ];
 
     protected $hidden = [
